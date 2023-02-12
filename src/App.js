@@ -9,14 +9,13 @@ function App() {
   const [interv, setInterv] = useState();
   const [status, setStatus] = useState(0);
   
-
   const start = () => {
     run();
     setStatus(1);
     setInterv(setInterval(run, 10));
   };
 
-  var updatedMs = time.ms, updatedS = time.s;
+  let updatedMs = time.ms, updatedS = time.s;
 
   const run = () => {
   
