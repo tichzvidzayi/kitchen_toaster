@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 30vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 47.1s linear;
+  }
+}
+
+
+
+.App-header {
+  background-color: #8d9a9e;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #293133;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(180deg);
+  }
+}
+
+.main-section {
+  background: transparent;
+  max-width: 600px;
+  width: 90%;
+  height: 500px;
+  margin: 30px auto;
+}
+
+.clock-holder {
+  width: 100%;
+  background: #292d2e;
+  margin: 30px auto;
+  position: relative;
+}
+
+.stoptoast {
+  padding: 60px 0px;
+  text-align: center;
+}
+.stoptoast span{
+  background:#64807f;
+  color: #fff;
+  display: inline-block;
+  font-family: monospace;
+  font-size: 22px;
+  padding: 20px;
+  border-radius: 5px;
+  width: 70px;
+}
+
+.stoptoast .stoptoast-btn {
+  background: #fff;
+  margin-top: 30px;
+  margin-left: 5px;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  text-transform: uppercase;
+  width: 150px;
+  transition: background 1s;
+  cursor: pointer;
+}
+.stoptoast .stoptoast-btn-red{
+  border: 2px solid #C85454;
+  color: #C85454;
+}
+.stoptoast .stoptoast-btn-yel{
+  border: 2px solid #FFC900;
+  color: #FFC900;
+}
+
+.stoptoast .stoptoast-btn-gre{
+  border: 2px solid #00ABA9;
+  color: #00ABA9;
+}
+.stoptoast .stoptoast-btn-red:hover {
+  background: #C85454;
+  border: 2px solid #C85454;
+  color: #fff;
+}
+.stoptoast .stoptoast-btn-yel:hover {
+  background: #f7b894;
+  border: 2px solid #f85718;
+  color: #fff;
+}
+.stoptoast .stoptoast-btn-gre:hover {
+  background: #00ABA9;
+  border: 2px solid #00ABA9;
+  color: #fff;
+}
